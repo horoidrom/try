@@ -37,7 +37,7 @@ task:
       - cd ~/work
       - repo init --depth=1 --no-repo-verify -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0 -g default,-mips,-darwin,-notdefault
       - repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
-      - git clone https://github.com/horoid/pbr.git device/sasmung/a12s
+      - git clone https://github.com/horoid/pbr.git device/samsung/a12s
       - echo "============================"
       - echo "Syncing Complete!"
       - echo "============================"
